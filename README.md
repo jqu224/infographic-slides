@@ -1,6 +1,6 @@
 # infographic-slides
 
-**AI 信息图技能库**:16 个商务 3D 高级感参数化 SVG 组件 + 8 套多色配色 + AntV Infographic 桥接(200 模板)。
+**AI 信息图技能库**:16 个商务 3D 高级感参数化 SVG 组件 + 9 套多色配色 + AntV Infographic 桥接(200 模板)。
 任何 AI Agent(Claude Code / ZCode / Codex)装载本仓库的 `SKILL.md` 后,即可为用户把数据画成高级信息图,输出 SVG / HTML(可进 PPT)。
 
 ```bash
@@ -13,7 +13,7 @@ node scripts/catalog.mjs && open catalog.html      # 全组件目录画廊
 ## 能力
 
 - **16 个组件**:漏斗 / 金字塔 / 趋势 / 环形占比 / 循环 / 时间轴 / 阶梯 / 路线图 / KPI 卡 / 甘特 / VS 对比 / 四象限 / SWOT / 组织树 / 分组柱状 / 人物占比
-- **8 套多色配色**:极光紫青 / 蓝金商务 / 日落珊瑚 / 翡翠 / 莫兰迪 / 商务彩虹 / 暗底荧光 / 海洋珍珠
+- **9 套多色配色**:苔原琥珀(默认,森林绿+琥珀)/ 松烟朱砂 / 蓝金商务 / 商务彩虹 / 日落珊瑚 / 翡翠森林 / 莫兰迪 / 暗底荧光 / 海洋珍珠 —— 无全局蓝紫主导
 - **设计语言「Aurora Glass」**:多色渐变 + 明暗面拆分 + 等距 3D + 玻璃卡片 + 柔和投影,文字正投影保证可读
 - **双引擎**:自研库(风格可控、零依赖、离线安全)+ antv/Infographic(Node SSR 直出,200 模板)
 - **纯字符串 SVG**:系统字体栈、无外链资源,可直接内联 HTML / 拖入 PPT / 导入 Figma
@@ -24,7 +24,7 @@ node scripts/catalog.mjs && open catalog.html      # 全组件目录画廊
 SKILL.md                  # AI 技能入口(选型→配色→渲染→交付)
 library/                  # 16 组件(template.js + meta.json + 示例数据)
 library/_shared/svg.mjs   # 零依赖 SVG 工具箱(渐变/等距3D/文字适配/图标)
-palettes/index.json       # 8 套配色
+palettes/index.json       # 9 套配色
 scripts/render.mjs        # 渲染 CLI
 scripts/antv-bridge.mjs   # AntV 语法 → SVG(Node SSR)
 scripts/catalog.mjs       # 生成 catalog.html 画廊

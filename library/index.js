@@ -19,7 +19,7 @@ export function getPalettes() {
   return JSON.parse(readFileSync(join(ROOT, 'palettes/index.json'), 'utf-8'));
 }
 
-export function getPalette(id = 'aurora') {
+export function getPalette(id = 'verdant') {
   const list = getPalettes();
   return list.find((p) => p.id === id) ?? list[0];
 }
@@ -49,7 +49,7 @@ export function listComponents() {
  * @param {string} id 组件目录名,如 funnel-3d
  * @param {{ data?: object, paletteId?: string, palette?: object, w?: number, h?: number, opts?: object }} param0
  */
-export async function renderComponent(id, { data, paletteId = 'aurora', palette, w = 960, h = 540, opts } = {}) {
+export async function renderComponent(id, { data, paletteId = 'verdant', palette, w = 960, h = 540, opts } = {}) {
   const dir = join(LIB_DIR, id);
   if (!existsSync(join(dir, 'template.js'))) throw new Error(`component not found: ${id}`);
   const mod = await import(join(dir, 'template.js'));

@@ -1,6 +1,6 @@
 ---
 name: infographic-slides
-description: 绘制高级感多色 3D 信息图(SVG/HTML),内置 16 个商务风格参数化组件(漏斗/金字塔/趋势/循环/时间轴/KPI/甘特/路线图等)与 8 套配色,并可桥接 AntV Infographic 的 200 个模板。当用户要画信息图、图表、infographic、做 PPT 配图、数据可视化、汇报图示时使用。
+description: 绘制高级感多色 3D 信息图(SVG/HTML),内置 16 个商务风格参数化组件(漏斗/金字塔/趋势/循环/时间轴/KPI/甘特/路线图等)与 9 套配色,并可桥接 AntV Infographic 的 200 个模板。当用户要画信息图、图表、infographic、做 PPT 配图、数据可视化、汇报图示时使用。
 ---
 
 # Infographic Slides — AI 信息图绘制技能
@@ -38,11 +38,12 @@ description: 绘制高级感多色 3D 信息图(SVG/HTML),内置 16 个商务风
 
 ## 第二步:配色
 
-8 套多色配色(`palettes/index.json`),**不要用单色**:
+9 套多色配色(`palettes/index.json`),**禁止全局蓝紫,不要单色**:
 
-`aurora` 极光紫青(默认) · `bluegold` 蓝金商务 · `sunset` 日落珊瑚 · `emerald` 翡翠森林 · `morandi` 莫兰迪 · `corporate` 商务彩虹 · `darkneon` 暗底荧光(深色背景) · `ocean` 海洋珍珠
+`verdant` 苔原琥珀(默认,森林绿+琥珀) · `inkstone` 松烟朱砂(墨色+朱红,编辑杂志风) · `bluegold` 蓝金商务 · `corporate` 商务彩虹 · `sunset` 日落珊瑚 · `emerald` 翡翠森林 · `morandi` 莫兰迪 · `darkneon` 暗底荧光(深色背景,绿/青/琥珀主导) · `ocean` 海洋珍珠
 
-选法:科技/互联网 → aurora;政企/金融 → bluegold;消费/暖调 → sunset;环保/健康 → emerald;暗色页面 → darkneon。
+选法:默认/自然/ESG/增长 → verdant;文化/媒体/年报 → inkstone;政企/金融 → bluegold;多品类对比 → corporate;消费/暖调 → sunset;环保/健康 → emerald;高端灰调 → morandi;暗色页面 → darkneon;航运/科技数据 → ocean。
+**蓝紫色只允许作为 corporate/ocean 等多色系中的一员出现,不允许整套图以蓝紫为主调。**
 
 ## 第三步:渲染
 

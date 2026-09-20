@@ -3,13 +3,14 @@
 import { writeFileSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { listComponents, renderComponent } from '../library/index.js';
+import { listComponents, renderComponent, getPalettes } from '../library/index.js';
 
 const LIB = join(dirname(dirname(fileURLToPath(import.meta.url))), 'library');
 
 async function main() {
+  const defaultPal = getPalettes()[0].id;
   for (const c of listComponents()) {
-    const svg = await renderComponent(c.id, { paletteId: 'aurora' });
+    const svg = await renderComponent(c.id, { paletteId: defaultPal });
     writeFileSync(join(LIB, c.id, 'preview.svg'), svg);
     console.log(`preview → library/${c.id}/preview.svg`);
   }

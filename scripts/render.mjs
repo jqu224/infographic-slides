@@ -13,7 +13,7 @@ const { values: args } = parseArgs({
   options: {
     tpl: { type: 'string' },
     data: { type: 'string' },
-    palette: { type: 'string', default: 'aurora' },
+    palette: { type: 'string', default: 'verdant' },
     w: { type: 'string', default: '960' },
     h: { type: 'string', default: '540' },
     out: { type: 'string' },
@@ -30,7 +30,7 @@ async function main() {
   const w = Number(args.w) || 960, h = Number(args.h) || 540;
   const svg = await renderComponent(args.tpl, { data, paletteId: args.palette, w, h });
 
-  const out = args.out ?? `output/${args.tpl}${args.palette !== 'aurora' ? '-' + args.palette : ''}.svg`;
+  const out = args.out ?? `output/${args.tpl}${args.palette !== 'verdant' ? '-' + args.palette : ''}.svg`;
   mkdirSync(dirname(out), { recursive: true });
   writeFileSync(out, svg);
   console.log(`✅ ${args.tpl} [${args.palette}] → ${out} (${(svg.length / 1024).toFixed(1)} KB)`);

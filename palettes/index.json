@@ -1,15 +1,27 @@
 [
   {
-    "id": "aurora",
-    "label": "极光紫青",
+    "id": "verdant",
+    "label": "苔原琥珀",
     "dark": false,
-    "bg": "#f7f7fc",
-    "bg2": "#eef2fb",
-    "text": "#1e1b3a",
-    "subtext": "#6b7194",
-    "line": "#e4e6f2",
-    "series": ["#7c3aed", "#2563eb", "#06b6d4", "#ec4899", "#14b8a6"],
-    "accent": "#f59e0b"
+    "bg": "#f6f8f3",
+    "bg2": "#ebf1e6",
+    "text": "#182a20",
+    "subtext": "#5e7263",
+    "line": "#dfe8d9",
+    "series": ["#1e7a52", "#c8871d", "#2b8a78", "#c05b2e", "#7c8a3a", "#33684f"],
+    "accent": "#c8871d"
+  },
+  {
+    "id": "inkstone",
+    "label": "松烟朱砂",
+    "dark": false,
+    "bg": "#faf9f7",
+    "bg2": "#f1efe9",
+    "text": "#26251f",
+    "subtext": "#75715f",
+    "line": "#e7e4d9",
+    "series": ["#3f3f38", "#bf402c", "#a8892e", "#5f7a5a", "#8c5a4f", "#2f4858"],
+    "accent": "#bf402c"
   },
   {
     "id": "bluegold",
@@ -22,6 +34,18 @@
     "line": "#dfe7f2",
     "series": ["#1d4ed8", "#0ea5e9", "#d4a017", "#b45309", "#3b82f6", "#f59e0b"],
     "accent": "#d4a017"
+  },
+  {
+    "id": "corporate",
+    "label": "商务彩虹",
+    "dark": false,
+    "bg": "#f8fafc",
+    "bg2": "#eef2f7",
+    "text": "#0f172a",
+    "subtext": "#64748b",
+    "line": "#e2e8f0",
+    "series": ["#2563eb", "#0f766e", "#d97706", "#c2410c", "#16a34a", "#0891b2"],
+    "accent": "#0f766e"
   },
   {
     "id": "sunset",
@@ -60,18 +84,6 @@
     "accent": "#a3743f"
   },
   {
-    "id": "corporate",
-    "label": "商务彩虹",
-    "dark": false,
-    "bg": "#f8fafc",
-    "bg2": "#eef2f7",
-    "text": "#0f172a",
-    "subtext": "#64748b",
-    "line": "#e2e8f0",
-    "series": ["#2563eb", "#7c3aed", "#db2777", "#f59e0b", "#10b981", "#0891b2"],
-    "accent": "#7c3aed"
-  },
-  {
     "id": "darkneon",
     "label": "暗底荧光",
     "dark": true,
@@ -80,7 +92,7 @@
     "text": "#f1f5f9",
     "subtext": "#94a3b8",
     "line": "#293548",
-    "series": ["#38bdf8", "#a78bfa", "#f472b6", "#34d399", "#fbbf24", "#fb7185"],
+    "series": ["#34d399", "#22d3ee", "#fbbf24", "#a3e635", "#38bdf8", "#f472b6"],
     "accent": "#34d399"
   },
   {
@@ -92,7 +104,7 @@
     "text": "#0c2d44",
     "subtext": "#5b7791",
     "line": "#dbe9f2",
-    "series": ["#0369a1", "#0891b2", "#6366f1", "#7c3aed", "#0d9488", "#94a3b8"],
+    "series": ["#0369a1", "#0891b2", "#0d9488", "#f59e0b", "#155e75", "#64748b"],
     "accent": "#f59e0b"
   }
 ]
