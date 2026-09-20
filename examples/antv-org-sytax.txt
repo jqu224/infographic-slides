@@ -1,0 +1,14 @@
+infographic sequence-timeline-simple
+data
+  title 产品迭代时间线
+  sequences
+    - label 需求评审
+      icon doc
+    - label 开发联调
+      icon code
+    - label 灰度发布
+      icon shield
+    - label 全量上线
+      icon rocket
+theme
+  palette #2563eb #7c3aed #db2777 #f59e0b

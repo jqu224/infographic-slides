@@ -1,0 +1,17 @@
+{
+  "id": "compare",
+  "name": "VS Comparison",
+  "label": "双方对比图",
+  "category": "对比与决策",
+  "tags": ["compare", "versus", "对比", "VS"],
+  "desc": "左右玻璃面板各配渐变页头与逐条对比行,中心 VS 立体徽章,可附结论条。适合方案对比/竞品分析/前后对照。",
+  "dataSchema": {
+    "title": "string", "subtitle": "string(可选)", "verdict": "结论一句话(可选)",
+    "sides": [
+      { "label": "方案名", "desc": "一句话定位", "icon": "语义图标",
+        "children": [{ "label": "对比点", "desc": "说明(可选)", "positive": true }] }
+    ]
+  },
+  "bestFor": "双方各 3-5 个对比点;positive=false 显示灰色叉",
+  "example": "data.example.json"
+}

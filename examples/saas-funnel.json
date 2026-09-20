@@ -1,0 +1,11 @@
+{
+  "title": "SaaS 试用转化漏斗",
+  "subtitle": "2026 Q3 · 售后线索全量口径 · 单位:条",
+  "stages": [
+    { "label": "线索获取", "value": 8600, "desc": "表单/直播/内容下载", "icon": "search" },
+    { "label": "试用注册", "value": 3240, "desc": "14 天全功能试用", "icon": "user" },
+    { "label": "激活达标", "value": 1450, "desc": "完成 3 个关键动作", "icon": "bolt" },
+    { "label": "商机确认", "value": 620, "desc": "销售跟进有效", "icon": "check" },
+    { "label": "付费成交", "value": 295, "desc": "年付/半年付", "icon": "wallet" }
+  ]
+}

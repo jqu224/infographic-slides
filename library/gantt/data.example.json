@@ -1,0 +1,16 @@
+{
+  "title": "App 4.0 改版排期",
+  "subtitle": "单位:周 · 虚线为当前进度标线",
+  "now": 3.5,
+  "nowLabel": "本周",
+  "tasks": [
+    { "label": "设计", "start": 0, "duration": 3.5, "progress": 1 },
+    { "label": "视觉稿", "start": 0.5, "duration": 3, "progress": 0.9, "indent": true },
+    { "label": "设计走查", "start": 2.5, "duration": 1, "progress": 0.6, "indent": true },
+    { "label": "研发", "start": 2, "duration": 6, "progress": 0.55 },
+    { "label": "前端组件", "start": 2, "duration": 3.5, "progress": 0.8, "indent": true },
+    { "label": "接口联调", "start": 4, "duration": 3, "progress": 0.35, "indent": true },
+    { "label": "测试与灰度", "start": 7, "duration": 2.5, "progress": 0 },
+    { "label": "全量发布", "start": 9, "duration": 1, "progress": 0 }
+  ]
+}

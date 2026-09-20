@@ -1,0 +1,17 @@
+{
+  "id": "funnel-3d",
+  "name": "3D Layered Funnel",
+  "label": "3D 多层漏斗",
+  "category": "转化与占比",
+  "tags": ["funnel", "conversion", "3d", "漏斗", "转化"],
+  "desc": "多色渐变分层漏斗:椭圆顶面 + 体积渐变 + 投影,层内显示占比,右侧链路显示各阶段数值与流转率,底部整体转化率徽章。适合获客/销售/注册等转化路径。",
+  "dataSchema": {
+    "title": "string 标题",
+    "subtitle": "string 副标题(可选)",
+    "stages": [
+      { "label": "阶段名", "value": "数值(决定层宽,需递减)", "desc": "说明(可选)", "icon": "语义图标如 users / cart", "unit": "单位(可选)" }
+    ]
+  },
+  "bestFor": "3-6 个逐级递减的转化阶段",
+  "example": "data.example.json"
+}

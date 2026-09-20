@@ -1,0 +1,10 @@
+{
+  "title": "2026 产品演进里程碑",
+  "subtitle": "从 MVP 到平台化的四步走",
+  "events": [
+    { "date": "Q1", "label": "MVP 上线", "desc": "核心链路跑通,种子用户 1k", "icon": "rocket" },
+    { "date": "Q2", "label": "增长引擎", "desc": "投放+裂变,MAU 破 10 万", "icon": "trend" },
+    { "date": "Q3", "label": "商业化", "desc": "会员体系与 B 端API", "icon": "wallet" },
+    { "date": "Q4", "label": "平台化", "desc": "开放生态与 ISV 接入", "icon": "globe" }
+  ]
+}

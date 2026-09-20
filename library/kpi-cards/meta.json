@@ -1,0 +1,14 @@
+{
+  "id": "kpi-cards",
+  "name": "KPI Metric Cards",
+  "label": "KPI 指标卡",
+  "category": "指标看板",
+  "tags": ["kpi", "dashboard", "cards", "指标", "看板"],
+  "desc": "玻璃渐变边框的指标卡矩阵:大数字 + 同比涨跌胶囊 + 迷你趋势线 + 图标徽章。适合经营看板/周报月报核心数字。",
+  "dataSchema": {
+    "title": "string", "subtitle": "string(可选)",
+    "kpis": [{ "label": "指标名", "value": 1234, "unit": "单位(可选)", "valueLabel": "自定义展示值(可选)", "delta": 12.5, "deltaLabel": "同比文案(可选)", "icon": "语义图标", "spark": [1, 2, 3, 4] }]
+  },
+  "bestFor": "2-6 个核心指标;delta 为数值百分比,正负决定涨跌颜色",
+  "example": "data.example.json"
+}

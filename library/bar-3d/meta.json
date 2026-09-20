@@ -1,0 +1,14 @@
+{
+  "id": "bar-3d",
+  "name": "3D Grouped Bar Chart",
+  "label": "3D 分组柱状图",
+  "category": "趋势与对比",
+  "tags": ["bar", "column", "3d", "柱状图", "分组"],
+  "desc": "透视地面 + 立体柱体的分组柱状图(两组对比),顶部数值标注 + y 轴刻度 + 图例。适合竞品对比/同比环比/多方案评分。",
+  "dataSchema": {
+    "title": "string", "subtitle": "string(可选)", "seriesNames": ["系列A名", "系列B名"],
+    "groups": [{ "label": "类目", "values": [122, 98] }]
+  },
+  "bestFor": "2-6 个类目、每类两个数值",
+  "example": "data.example.json"
+}

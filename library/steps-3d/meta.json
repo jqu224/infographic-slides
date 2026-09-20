@@ -1,0 +1,14 @@
+{
+  "id": "steps-3d",
+  "name": "3D Ascending Steps",
+  "label": "3D 上升阶梯",
+  "category": "流程与循环",
+  "tags": ["steps", "stairs", "3d", "步骤", "阶梯"],
+  "desc": "等距投影的上升阶梯,逐级抬升、台阶编号、上方标签。适合实施方案/成熟度演进/等级划分。",
+  "dataSchema": {
+    "title": "string", "subtitle": "string(可选)",
+    "steps": [{ "label": "步骤名", "desc": "说明(可选)" }]
+  },
+  "bestFor": "3-5 个递进步骤",
+  "example": "data.example.json"
+}

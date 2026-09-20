@@ -1,0 +1,15 @@
+{
+  "id": "matrix-2x2",
+  "name": "2×2 Quadrant Matrix",
+  "label": "2×2 四象限矩阵",
+  "category": "对比与决策",
+  "tags": ["matrix", "quadrant", "2x2", "矩阵", "象限"],
+  "desc": "带箭头十字轴的四象限矩阵,每象限玻璃卡(主色+图标+要点)。适合优先级评估/能力评估/波士顿矩阵。",
+  "dataSchema": {
+    "title": "string", "subtitle": "string(可选)",
+    "axis": { "top": "上轴标签", "bottom": "下轴标签", "left": "左轴标签", "right": "右轴标签" },
+    "quadrants": [{ "label": "象限名", "desc": "一句话(可选)", "icon": "图标", "children": [{ "label": "要点" }] }]
+  },
+  "bestFor": "恰好 4 个象限,顺序:左上→右上→左下→右下",
+  "example": "data.example.json"
+}

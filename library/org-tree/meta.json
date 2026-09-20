@@ -1,0 +1,14 @@
+{
+  "id": "org-tree",
+  "name": "Organization Tree",
+  "label": "组织架构树",
+  "category": "层级与结构",
+  "tags": ["org", "tree", "hierarchy", "组织", "架构"],
+  "desc": "渐变根卡 + 分支配色部门卡 + 紧凑孙代胶囊,平滑曲线连接。适合组织架构/团队结构/职能划分。",
+  "dataSchema": {
+    "title": "string", "subtitle": "string(可选)",
+    "root": { "label": "根节点", "desc": "说明(可选)", "children": [{ "label": "子节点", "desc": "说明(可选)", "children": [{ "label": "孙节点" }] }] }
+  },
+  "bestFor": "2-5 个分支,每支 0-4 个子项,共三层",
+  "example": "data.example.json"
+}

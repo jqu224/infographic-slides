@@ -1,0 +1,10 @@
+{
+  "title": "2026 Q3 经营核心指标",
+  "subtitle": "数据截至 9 月 30 日 · 环比上季度",
+  "kpis": [
+    { "label": "月活跃用户", "value": 660, "unit": "万", "delta": 11.9, "icon": "users", "spark": [320, 355, 410, 470, 545, 660] },
+    { "label": "营收", "value": 2.4, "unit": "亿", "delta": 18.2, "icon": "wallet", "spark": [1.2, 1.5, 1.6, 1.9, 2.1, 2.4] },
+    { "label": "付费转化率", "value": 6.9, "unit": "%", "delta": 0.8, "deltaLabel": " pt", "icon": "target", "spark": [4.2, 4.5, 5.1, 5.6, 6.4, 6.9] },
+    { "label": "NPS 净推荐值", "value": 62, "delta": -3, "icon": "heart", "spark": [58, 61, 66, 65, 64, 62] }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "gantt",
+  "name": "Gantt Chart",
+  "label": "甘特图",
+  "category": "指标看板",
+  "tags": ["gantt", "schedule", "project", "甘特", "排期"],
+  "desc": "左侧任务树(支持缩进子任务)+ 时间网格 + 3D 胶囊进度条 + 今天标线。适合项目排期/资源计划。",
+  "dataSchema": {
+    "title": "string", "subtitle": "string(可选)", "now": "当前时间数值(可选)", "nowLabel": "标线文字(默认'今天')",
+    "tasks": [{ "label": "任务", "start": 0, "duration": 3, "progress": 0.6, "indent": false }]
+  },
+  "bestFor": "2-9 个任务;start/duration 为任意数值坐标(周/天均可),progress 0-1",
+  "example": "data.example.json"
+}

@@ -1,0 +1,16 @@
+{
+  "name": "infographic-slides",
+  "version": "0.1.0",
+  "description": "AI-ready premium 3D infographic SVG component library + skill (HTML/SVG first, PPTX-ready)",
+  "type": "module",
+  "main": "library/index.js",
+  "scripts": {
+    "render": "node scripts/render.mjs",
+    "antv": "node scripts/antv-bridge.mjs",
+    "catalog": "node scripts/catalog.mjs",
+    "build:previews": "node scripts/build-previews.mjs"
+  },
+  "dependencies": {
+    "@antv/infographic": "^0.2.20"
+  }
+}

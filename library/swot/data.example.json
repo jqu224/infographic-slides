@@ -1,0 +1,10 @@
+{
+  "title": "智能手表出海 SWOT 分析",
+  "subject": "智能手表欧洲市场",
+  "quadrants": [
+    { "children": [{ "label": "供应链成本优势显著" }, { "label": "健康监测算法专利 20+" }] },
+    { "children": [{ "label": "高端品牌认知不足" }, { "label": "本地化服务团队薄弱" }] },
+    { "children": [{ "label": "欧盟健康数据新政利好" }, { "label": "运营商渠道补贴窗口" }] },
+    { "children": [{ "label": "头部厂商价格战" }, { "label": "隐私合规成本上升" }] }
+  ]
+}

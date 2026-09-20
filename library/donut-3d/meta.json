@@ -1,0 +1,14 @@
+{
+  "id": "donut-3d",
+  "name": "3D Donut Chart",
+  "label": "3D 环形占比",
+  "category": "转化与占比",
+  "tags": ["donut", "pie", "ratio", "3d", "占比", "饼图"],
+  "desc": "椭圆透视 3D 环形图,每片按数值不同厚度挤出,中心显示总量,右侧引线标签+百分比。适合渠道/品类/结构占比。",
+  "dataSchema": {
+    "title": "string", "subtitle": "string(可选)", "totalLabel": "中心大数字(可选)", "totalDesc": "中心说明(可选)",
+    "slices": [{ "label": "分项名", "value": 12, "desc": "说明(可选)" }]
+  },
+  "bestFor": "3-5 个分项占比",
+  "example": "data.example.json"
+}

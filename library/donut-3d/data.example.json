@@ -1,0 +1,12 @@
+{
+  "title": "营收结构占比",
+  "subtitle": "2026 Q3 · 按业务线",
+  "totalLabel": "2.4亿",
+  "totalDesc": "季度总营收",
+  "slices": [
+    { "label": "订阅会员", "value": 9800, "desc": "续费率 87%" },
+    { "label": "广告收入", "value": 7200, "desc": "品牌+效果" },
+    { "label": "企业服务", "value": 4900, "desc": "API 与私有化" },
+    { "label": "增值商城", "value": 2100, "desc": "周边与联名" }
+  ]
+}

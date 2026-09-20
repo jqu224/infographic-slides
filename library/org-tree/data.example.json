@@ -1,0 +1,14 @@
+{
+  "title": "产品研发中心组织架构",
+  "subtitle": "三级架构 · 2026 调整后",
+  "root": {
+    "label": "产品研发中心",
+    "desc": "CTO 直管 · 128 人",
+    "children": [
+      { "label": "产品部", "desc": "24 人", "children": [{ "label": "用户增长组" }, { "label": "平台产品组" }, { "label": "设计系统组" }] },
+      { "label": "研发部", "desc": "76 人", "children": [{ "label": "客户端组" }, { "label": "服务端组" }, { "label": "数据平台组" }, { "label": "质量工程组" }] },
+      { "label": "算法部", "desc": "18 人", "children": [{ "label": "搜索推荐组" }, { "label": "多模态组" }] },
+      { "label": "项目部", "desc": "10 人", "children": [{ "label": "PMO" }, { "label": "敏捷教练组" }] }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "cycle-3d",
+  "name": "3D Cycle Loop",
+  "label": "3D 循环闭环",
+  "category": "流程与循环",
+  "tags": ["cycle", "loop", "3d", "循环", "闭环"],
+  "desc": "渐变环形分段(双层厚度+箭头衔接)的闭环流程图,中心主题,外圈编号与左右标签。适合 PDCA/增长飞轮/业务闭环。",
+  "dataSchema": {
+    "title": "string", "subtitle": "string(可选)", "center": "中心主题(可选)", "centerDesc": "中心副文(可选)",
+    "nodes": [{ "label": "节点名", "desc": "说明(可选)" }]
+  },
+  "bestFor": "3-6 个节点的循环流程",
+  "example": "data.example.json"
+}

@@ -1,0 +1,32 @@
+{
+  "title": "月度活跃用户与付费转化趋势",
+  "subtitle": "2026 年 1-8 月 · 虚线为付费转化率(%)",
+  "series": [
+    {
+      "label": "活跃用户(万)",
+      "points": [
+        { "label": "1月", "value": 320 },
+        { "label": "2月", "value": 355 },
+        { "label": "3月", "value": 410 },
+        { "label": "4月", "value": 396 },
+        { "label": "5月", "value": 470 },
+        { "label": "6月", "value": 545 },
+        { "label": "7月", "value": 590 },
+        { "label": "8月", "value": 660 }
+      ]
+    },
+    {
+      "label": "付费转化(%)",
+      "points": [
+        { "label": "1月", "value": 42 },
+        { "label": "2月", "value": 45 },
+        { "label": "3月", "value": 51 },
+        { "label": "4月", "value": 49 },
+        { "label": "5月", "value": 56 },
+        { "label": "6月", "value": 61 },
+        { "label": "7月", "value": 64 },
+        { "label": "8月", "value": 69 }
+      ]
+    }
+  ]
+}

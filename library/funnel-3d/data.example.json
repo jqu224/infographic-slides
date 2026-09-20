@@ -1,0 +1,11 @@
+{
+  "title": "电商获客转化漏斗",
+  "subtitle": "2026 Q3 全渠道数据 · 单位:万人",
+  "stages": [
+    { "label": "曝光触达", "value": 1200, "desc": "投放+自然流量", "icon": "globe" },
+    { "label": "进店访问", "value": 480, "desc": "落地页到达", "icon": "users" },
+    { "label": "加购收藏", "value": 210, "desc": "兴趣沉淀", "icon": "cart" },
+    { "label": "提交订单", "value": 96, "desc": "结算页转化", "icon": "wallet" },
+    { "label": "支付成交", "value": 68, "desc": "最终成交用户", "icon": "check" }
+  ]
+}

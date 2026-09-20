@@ -1,0 +1,11 @@
+{
+  "title": "数据驱动决策金字塔",
+  "subtitle": "从数据采集到智能决策的五层能力模型",
+  "layers": [
+    { "label": "智能决策", "desc": "AI 推荐 / 自动化决策", "icon": "bulb" },
+    { "label": "深度分析", "desc": "归因 / 预测 / 沙盘推演", "icon": "search" },
+    { "label": "指标体系", "desc": "北极星指标与看板", "icon": "target" },
+    { "label": "数据资产", "desc": "数仓 / 标签 / 数据湖", "icon": "database" },
+    { "label": "采集治理", "desc": "埋点 / 质量 / 合规", "icon": "shield" }
+  ]
+}

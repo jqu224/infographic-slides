@@ -1,0 +1,14 @@
+{
+  "id": "timeline-3d",
+  "name": "3D Timeline",
+  "label": "3D 立体时间轴",
+  "category": "流程与循环",
+  "tags": ["timeline", "milestone", "3d", "时间轴", "里程碑"],
+  "desc": "多彩渐变立体轴身贯穿画面,里程碑节点上下交替展开玻璃卡片,含日期胶囊。适合项目里程碑/发展历程/路线回顾。",
+  "dataSchema": {
+    "title": "string", "subtitle": "string(可选)",
+    "events": [{ "date": "如 2026.Q1", "label": "事件名", "desc": "说明(可选)", "icon": "语义图标(可选)" }]
+  },
+  "bestFor": "3-7 个里程碑事件",
+  "example": "data.example.json"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "people-ratio",
+  "name": "People Pictogram Ratio",
+  "label": "人物占比图",
+  "category": "转化与占比",
+  "tags": ["pictogram", "ratio", "people", "占比", "人口"],
+  "desc": "人形象形网格表达占比(每 10/20 人中有多少人),单组带大百分比数字,双组可对比。适合用户渗透/覆盖率/人群研究。",
+  "dataSchema": {
+    "title": "string", "subtitle": "string(可选)", "totalIcons": "10 或 20(默认 10)",
+    "groups": [{ "label": "组名", "value": 68, "desc": "说明(单组时显示)" }]
+  },
+  "bestFor": "value 为 0-100 百分比;1-2 组",
+  "example": "data.example.json"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "trend-3d",
+  "name": "3D Trend Chart",
+  "label": "3D 趋势图",
+  "category": "趋势与对比",
+  "tags": ["trend", "line", "area", "3d", "趋势", "折线"],
+  "desc": "三面图表房间(背墙/右墙/透视地面)中的平滑趋势曲线,体积渐变面积 + 数据点辉光 + 关键数值标注。支持 1-2 条序列对比(第二条虚线)。",
+  "dataSchema": {
+    "title": "string 标题",
+    "subtitle": "string 副标题(可选)",
+    "series": [
+      { "label": "序列名", "points": [{ "label": "类目如 Week1", "value": 86.5 }] }
+    ]
+  },
+  "bestFor": "4-8 个时间点的单/双序列趋势",
+  "example": "data.example.json"
+}

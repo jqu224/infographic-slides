@@ -1,0 +1,17 @@
+{
+  "id": "pyramid-3d",
+  "name": "3D Layered Pyramid",
+  "label": "3D 分层金字塔",
+  "category": "层级与结构",
+  "tags": ["pyramid", "hierarchy", "3d", "金字塔", "分层"],
+  "desc": "每层左右分面受光(左亮右暗)+ 顶沿石板 + 地面投影,左侧编号徽章、右侧引线标签。适合需求分层/马斯洛模型/信息架构等层级表达。",
+  "dataSchema": {
+    "title": "string 标题",
+    "subtitle": "string 副标题(可选)",
+    "layers": [
+      { "label": "层名", "desc": "说明(可选)", "value": "数值(可选,右侧显示)", "icon": "语义图标(可选)" }
+    ]
+  },
+  "bestFor": "3-6 层层级结构,数组顺序 = 从顶层到底层",
+  "example": "data.example.json"
+}

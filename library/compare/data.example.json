@@ -1,0 +1,29 @@
+{
+  "title": "自建 vs 托管:部署方案对比",
+  "subtitle": "以 100 人团队、三年总成本视角评估",
+  "verdict": "结论:非核心系统优先托管,核心数据系统自建混合部署",
+  "sides": [
+    {
+      "label": "自建部署",
+      "desc": "完全掌控,长期灵活",
+      "icon": "code",
+      "children": [
+        { "label": "数据完全私有", "desc": "满足合规与审计", "positive": true },
+        { "label": "深度可定制", "desc": "按业务自由改造", "positive": true },
+        { "label": "初期成本高", "desc": "服务器与运维投入", "positive": false },
+        { "label": "迭代速度慢", "desc": "依赖自研排期", "positive": false }
+      ]
+    },
+    {
+      "label": "云端托管",
+      "desc": "开箱即用,弹性伸缩",
+      "icon": "globe",
+      "children": [
+        { "label": "上线速度快", "desc": "小时级开通", "positive": true },
+        { "label": "弹性伸缩", "desc": "按量付费无闲置", "positive": true },
+        { "label": "数据出域", "desc": "敏感数据需评估", "positive": false },
+        { "label": "厂商锁定", "desc": "迁移成本随时间上升", "positive": false }
+      ]
+    }
+  ]
+}

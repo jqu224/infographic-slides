@@ -1,0 +1,15 @@
+{
+  "id": "roadmap",
+  "name": "Winding Roadmap",
+  "label": "S 型路线图",
+  "category": "流程与循环",
+  "tags": ["roadmap", "milestone", "路线图", "规划"],
+  "desc": "三段相位底色带 + 多彩渐变 S 型道路 + 里程碑 pin 与上下交替标签。适合产品规划/长期计划/演进路线。",
+  "dataSchema": {
+    "title": "string", "subtitle": "string(可选)",
+    "phases": [{ "label": "阶段名", "desc": "说明(可选)" }],
+    "milestones": [{ "label": "里程碑", "date": "时间(可选)", "desc": "说明(可选)" }]
+  },
+  "bestFor": "1-3 个阶段 + 3-8 个里程碑",
+  "example": "data.example.json"
+}

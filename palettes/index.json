@@ -1,0 +1,98 @@
+[
+  {
+    "id": "aurora",
+    "label": "极光紫青",
+    "dark": false,
+    "bg": "#f7f7fc",
+    "bg2": "#eef2fb",
+    "text": "#1e1b3a",
+    "subtext": "#6b7194",
+    "line": "#e4e6f2",
+    "series": ["#7c3aed", "#2563eb", "#06b6d4", "#ec4899", "#14b8a6"],
+    "accent": "#f59e0b"
+  },
+  {
+    "id": "bluegold",
+    "label": "蓝金商务",
+    "dark": false,
+    "bg": "#f5f8fd",
+    "bg2": "#e9eff9",
+    "text": "#15243f",
+    "subtext": "#5d6b85",
+    "line": "#dfe7f2",
+    "series": ["#1d4ed8", "#0ea5e9", "#d4a017", "#b45309", "#3b82f6", "#f59e0b"],
+    "accent": "#d4a017"
+  },
+  {
+    "id": "sunset",
+    "label": "日落珊瑚",
+    "dark": false,
+    "bg": "#fdf8f5",
+    "bg2": "#fdeee7",
+    "text": "#3f2230",
+    "subtext": "#8a6a76",
+    "line": "#f3e3dc",
+    "series": ["#e11d48", "#f97316", "#f59e0b", "#d946ef", "#fb7185"],
+    "accent": "#0d9488"
+  },
+  {
+    "id": "emerald",
+    "label": "翡翠森林",
+    "dark": false,
+    "bg": "#f4faf7",
+    "bg2": "#e8f4ee",
+    "text": "#11302a",
+    "subtext": "#5d7a70",
+    "line": "#dcefe6",
+    "series": ["#059669", "#0d9488", "#65a30d", "#0891b2", "#ca8a04", "#16a34a"],
+    "accent": "#dc2626"
+  },
+  {
+    "id": "morandi",
+    "label": "莫兰迪灰调",
+    "dark": false,
+    "bg": "#f7f6f3",
+    "bg2": "#efece6",
+    "text": "#3d3a36",
+    "subtext": "#7d786f",
+    "line": "#e5e1d8",
+    "series": ["#8e9aaf", "#b0a495", "#c9ada7", "#7f96a3", "#a3a380", "#9a8c98"],
+    "accent": "#a3743f"
+  },
+  {
+    "id": "corporate",
+    "label": "商务彩虹",
+    "dark": false,
+    "bg": "#f8fafc",
+    "bg2": "#eef2f7",
+    "text": "#0f172a",
+    "subtext": "#64748b",
+    "line": "#e2e8f0",
+    "series": ["#2563eb", "#7c3aed", "#db2777", "#f59e0b", "#10b981", "#0891b2"],
+    "accent": "#7c3aed"
+  },
+  {
+    "id": "darkneon",
+    "label": "暗底荧光",
+    "dark": true,
+    "bg": "#0f172a",
+    "bg2": "#131c33",
+    "text": "#f1f5f9",
+    "subtext": "#94a3b8",
+    "line": "#293548",
+    "series": ["#38bdf8", "#a78bfa", "#f472b6", "#34d399", "#fbbf24", "#fb7185"],
+    "accent": "#34d399"
+  },
+  {
+    "id": "ocean",
+    "label": "海洋珍珠",
+    "dark": false,
+    "bg": "#f4f9fc",
+    "bg2": "#e8f1f8",
+    "text": "#0c2d44",
+    "subtext": "#5b7791",
+    "line": "#dbe9f2",
+    "series": ["#0369a1", "#0891b2", "#6366f1", "#7c3aed", "#0d9488", "#94a3b8"],
+    "accent": "#f59e0b"
+  }
+]

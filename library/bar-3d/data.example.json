@@ -1,0 +1,12 @@
+{
+  "title": "重点城市仓储成本对比",
+  "subtitle": "单位:元/单 · 2026 Q3 均值",
+  "seriesNames": ["自运营仓", "第三方仓"],
+  "groups": [
+    { "label": "上海", "values": [122, 98] },
+    { "label": "广州", "values": [105, 92] },
+    { "label": "北京", "values": [135, 110] },
+    { "label": "成都", "values": [88, 84] },
+    { "label": "武汉", "values": [96, 79] }
+  ]
+}

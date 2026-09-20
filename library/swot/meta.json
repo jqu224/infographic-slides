@@ -1,0 +1,16 @@
+{
+  "id": "swot",
+  "name": "SWOT Analysis",
+  "label": "SWOT 四象限",
+  "category": "对比与决策",
+  "tags": ["swot", "analysis", "strategy", "战略", "分析"],
+  "desc": "经典 SWOT 四象限:大字母渐变水印 + 四色玻璃卡 + 图标 + 要点列表,中心 SWOT 联结徽章。",
+  "dataSchema": {
+    "title": "string", "subtitle": "string(可选)", "subject": "分析对象(副标题用)",
+    "quadrants": [
+      { "label": "优势(可选,默认'优势')", "icon": "图标(可选)", "children": [{ "label": "要点" }] }
+    ]
+  },
+  "bestFor": "四象限顺序 S/W/O/T,各 1-3 个要点",
+  "example": "data.example.json"
+}

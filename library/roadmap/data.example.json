@@ -1,0 +1,16 @@
+{
+  "title": "2027 产品路线图",
+  "subtitle": "三阶段演进 · 里程碑交替标注",
+  "phases": [
+    { "label": "筑基期", "desc": "体验与稳定性" },
+    { "label": "扩张期", "desc": "生态与商业化" },
+    { "label": "智能期", "desc": "AI 原生能力" }
+  ],
+  "milestones": [
+    { "label": "全新工作台", "date": "Q1" },
+    { "label": "开放 API", "date": "Q2", "desc": "ISV 接入" },
+    { "label": "多端同步", "date": "Q3" },
+    { "label": "AI 助手 2.0", "date": "Q4", "desc": "多模态" },
+    { "label": "全球化部署", "date": "2028 H1" }
+  ]
+}

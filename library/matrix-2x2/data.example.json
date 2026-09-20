@@ -1,0 +1,11 @@
+{
+  "title": "任务优先级矩阵",
+  "subtitle": "按业务价值与实施成本划分四象限",
+  "axis": { "top": "高业务价值", "bottom": "低业务价值", "left": "低成本", "right": "高成本" },
+  "quadrants": [
+    { "label": "速赢区", "desc": "立即排期,快速见效", "icon": "bolt", "children": [{ "label": "登录流程简化" }, { "label": "报表导出优化" }] },
+    { "label": "战略投入区", "desc": "立项专项,分期推进", "icon": "flag", "children": [{ "label": "数据中台建设" }, { "label": "多租户改造" }] },
+    { "label": "顺手做区", "desc": "低成本顺带完成", "icon": "check", "children": [{ "label": "文案与埋点修补" }] },
+    { "label": "暂缓区", "desc": "记录归档,择机评估", "icon": "clock", "children": [{ "label": "自研 IM 模块" }] }
+  ]
+}
