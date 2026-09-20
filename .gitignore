@@ -6,3 +6,4 @@ catalog.html
 library/**/preview.svg
 # 研究用的上游源码克隆(6MB,按需自行 clone,见 RESEARCH.md / research/NOTES.md)
 research/antv-infographic/
+.zcode/
