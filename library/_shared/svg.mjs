@@ -61,6 +61,13 @@ export function seriesColors(palette, n) {
   return Array.from({ length: n }, (_, i) => s[i % s.length]);
 }
 
+/** Cap a list; warn when items are dropped past the hard max */
+export function take(list, max, field) {
+  const arr = (list ?? []).filter(Boolean);
+  if (arr.length > max) console.warn(`[infographic] truncated ${field}: ${arr.length} -> ${max}`);
+  return arr.slice(0, max);
+}
+
 /* ---------------- 文档骨架 ---------------- */
 
 export function svgDoc({ w = 960, h = 540, defs = '', body = '', bg, bg2, palette }) {

@@ -5,7 +5,7 @@
 import * as S from '../_shared/svg.mjs';
 
 export function render({ data, palette, w = 960, h = 540, opts = {} }) {
-  const tasks = (data.tasks ?? data.items ?? []).filter(Boolean).slice(0, 9);
+  const tasks = S.take(data.tasks ?? data.items, 9, 'tasks');
   const n = tasks.length;
   if (!n) return S.svgDoc({ w, h, palette, body: S.textEl({ x: w / 2, y: h / 2, anchor: 'middle', fill: palette.subtext, lines: ['no tasks'] }) });
 

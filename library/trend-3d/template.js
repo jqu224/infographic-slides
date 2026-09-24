@@ -6,7 +6,7 @@
 import * as S from '../_shared/svg.mjs';
 
 export function render({ data, palette, w = 960, h = 540, opts = {} }) {
-  const rawSeries = (data.series ?? [{ label: data.label ?? '', points: data.points ?? data.values ?? [] }]).filter(Boolean).slice(0, 2);
+  const rawSeries = S.take(data.series ?? [{ label: data.label ?? '', points: data.points ?? data.values ?? [] }], 2, 'series');
   const norm = rawSeries.map((sr) => ({
     label: sr.label ?? '',
     points: (sr.points ?? []).map((p, i) => (typeof p === 'object' ? { label: p.label ?? `P${i + 1}`, value: Number(p.value) || 0 } : { label: data.labels?.[i] ?? `P${i + 1}`, value: Number(p) || 0 })),

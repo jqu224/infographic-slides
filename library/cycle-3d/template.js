@@ -17,7 +17,7 @@ function donutSeg(cx, cy, R, r, a0, a1) {
 }
 
 export function render({ data, palette, w = 960, h = 540, opts = {} }) {
-  const nodes = (data.nodes ?? data.stages ?? data.items ?? []).filter(Boolean).slice(0, 7);
+  const nodes = S.take(data.nodes ?? data.stages ?? data.items, 7, 'nodes');
   const n = nodes.length;
   if (n < 2) return S.svgDoc({ w, h, palette, body: S.textEl({ x: w / 2, y: h / 2, anchor: 'middle', fill: palette.subtext, lines: ['need 3-6 nodes'] }) });
 

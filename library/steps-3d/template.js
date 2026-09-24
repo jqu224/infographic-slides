@@ -5,7 +5,7 @@
 import * as S from '../_shared/svg.mjs';
 
 export function render({ data, palette, w = 960, h = 540, opts = {} }) {
-  const steps = (data.steps ?? data.stages ?? data.items ?? []).filter(Boolean).slice(0, 6);
+  const steps = S.take(data.steps ?? data.stages ?? data.items, 6, 'steps');
   const n = steps.length;
   if (!n) return S.svgDoc({ w, h, palette, body: S.textEl({ x: w / 2, y: h / 2, anchor: 'middle', fill: palette.subtext, lines: ['no steps'] }) });
 
