@@ -55,8 +55,8 @@
     <circle cx="26" cy="394" r="5"/><circle cx="26" cy="394" r="1.6" fill="#123A2B" stroke="none"/>
   </g>
 
-  <!-- ============ left: wordmark block ============ -->
-  <g>
+  <!-- ============ left: wordmark block (lifted 10% of canvas height) ============ -->
+  <g transform="translate(0 -42)">
     <text x="64" y="106" font-family="'SF Mono', Menlo, Consolas, monospace" font-size="13" letter-spacing="6" fill="#123A2B" fill-opacity="0.62">SKILL · SVG INFOGRAPHICS FOR AI AGENTS</text>
     <text x="60" y="196" font-size="88" font-weight="800" letter-spacing="2" fill="#123A2B">INFOGRAPHIC</text>
     <text x="60" y="286" font-size="88" font-weight="800" letter-spacing="2">
@@ -72,8 +72,8 @@
     </g>
   </g>
 
-  <!-- ============ right: line-art of the product (signature components) ============ -->
-  <g stroke-linejoin="round" stroke-linecap="round">
+  <!-- ============ right: line-art of the product (signature components; lifted 10%) ============ -->
+  <g stroke-linejoin="round" stroke-linecap="round" transform="translate(0 -42)">
     <!-- mini 3D funnel, 4 layers -->
     <g>
       <path d="M790 118 h208 l-34 52 h-140 Z" fill="#55AE83" stroke="#123A2B" stroke-opacity="0.55"/>
