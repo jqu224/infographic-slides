@@ -99,8 +99,8 @@
       <path d="M1054 280 h58 l9 28 h-76 Z" fill="#D9A24E" stroke="#123A2B" stroke-opacity="0.55"/>
       <line x1="1044" y1="310" x2="1126" y2="310" stroke="#123A2B" stroke-opacity="0.5" stroke-dasharray="3 4"/>
     </g>
-    <!-- mini grouped bars -->
-    <g>
+    <!-- mini grouped bars (nudged 20% toward bottom-left to clear the pyramid) -->
+    <g transform="translate(-30 24)">
       <line x1="1010" y1="366" x2="1160" y2="366" stroke="#123A2B" stroke-opacity="0.5"/>
       <rect x="1020" y="330" width="16" height="36" rx="2" fill="#55AE83" stroke="#123A2B" stroke-opacity="0.5"/>
       <rect x="1042" y="342" width="16" height="24" rx="2" fill="#D9A24E" stroke="#123A2B" stroke-opacity="0.5"/>
