@@ -5,8 +5,8 @@
 import * as S from '../_shared/svg.mjs';
 
 export function render({ data, palette, w = 960, h = 540, opts = {} }) {
-  const phases = (data.phases ?? []).filter(Boolean).slice(0, 3);
-  const milestones = (data.milestones ?? data.items ?? []).filter(Boolean).slice(0, 8);
+  const phases = S.take(data.phases, 3, 'phases');
+  const milestones = S.take(data.milestones ?? data.items, 8, 'milestones');
   if (!milestones.length) return S.svgDoc({ w, h, palette, body: S.textEl({ x: w / 2, y: h / 2, anchor: 'middle', fill: palette.subtext, lines: ['no milestones'] }) });
 
   const pColors = phases.length ? S.seriesColors(palette, phases.length) : [];

@@ -5,7 +5,7 @@
 import * as S from '../_shared/svg.mjs';
 
 export function render({ data, palette, w = 960, h = 540, opts = {} }) {
-  const quads = (data.quadrants ?? data.items ?? data.quads ?? []).filter(Boolean).slice(0, 4);
+  const quads = S.take(data.quadrants ?? data.items ?? data.quads, 4, 'quadrants');
   if (quads.length < 4) return S.svgDoc({ w, h, palette, body: S.textEl({ x: w / 2, y: h / 2, anchor: 'middle', fill: palette.subtext, lines: ['need 4 quadrants'] }) });
 
   const colors = S.seriesColors(palette, 4);
@@ -41,7 +41,7 @@ export function render({ data, palette, w = 960, h = 540, opts = {} }) {
     body.push(S.icon(q.icon, { x: x + qw - 52, y: y + 34, size: 20, color: c }));
     body.push(S.textEl({ x: x + 18, y: y + 52, size: 16.5, weight: 800, fill: palette.text, lines: [S.ellipsis(q.label, qw - 96, 16.5, { bold: true })] }));
     if (q.desc) body.push(S.textEl({ x: x + 18, y: y + 76, size: 11.5, fill: palette.subtext, lines: [S.ellipsis(q.desc, qw - 36, 11.5)] }));
-    const items = (q.children ?? q.items ?? []).filter(Boolean).slice(0, 3);
+    const items = S.take(q.children ?? q.items, 3, 'quadrant.items');
     items.forEach((it, j) => {
       body.push(`<circle cx="${S.r2(x + 24)}" cy="${S.r2(y + qh - 24 - j * 24)}" r="3" fill="${c}"/>`);
       body.push(S.textEl({ x: x + 36, y: y + qh - 20 - j * 24, size: 11.5, weight: 500, fill: S.alpha(palette.text, 0.9), lines: [S.ellipsis(it.label ?? it, qw - 54, 11.5)] }));

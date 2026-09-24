@@ -7,7 +7,7 @@ import * as S from '../_shared/svg.mjs';
 const K = 0.58; // 透视压扁系数
 
 export function render({ data, palette, w = 960, h = 540, opts = {} }) {
-  const slicesIn = (data.slices ?? data.items ?? data.parts ?? []).filter(Boolean).slice(0, 6);
+  const slicesIn = S.take(data.slices ?? data.items ?? data.parts, 6, 'slices');
   const n = slicesIn.length;
   if (!n) return S.svgDoc({ w, h, palette, body: S.textEl({ x: w / 2, y: h / 2, anchor: 'middle', fill: palette.subtext, lines: ['no slices'] }) });
 
