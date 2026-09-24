@@ -8,3 +8,6 @@ library/**/preview.svg
 research/antv-infographic/
 .zcode/
 .zion-mcp/
+
+# Deck/template study corpus, untracked by design (see research/deck-sources.md)
+research/corpus/
