@@ -48,7 +48,7 @@ export function render({ data, palette, w = 960, h = 540, opts = {} }) {
     body.push(S.textEl({ x: x + 76, y: y + 40, size: 16.5, weight: 800, fill: palette.text, lines: [S.ellipsis(q.label ?? d.zh, cw - 150, 16.5, { bold: true })] }));
     body.push(S.textEl({ x: x + 76, y: y + 58, size: 10.5, fill: palette.subtext, lines: [d.label] }));
     // 要点
-    const rows = (q.children ?? q.items ?? q.points ?? []).filter(Boolean).slice(0, 3);
+    const rows = S.take(q.children ?? q.items ?? q.points, 3, 'swot.items');
     rows.forEach((it, j) => {
       const ry = y + 92 + j * 26;
       body.push(`<circle cx="${S.r2(x + 42)}" cy="${S.r2(ry - 4)}" r="3" fill="${c}"/>`);

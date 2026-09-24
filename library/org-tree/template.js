@@ -6,7 +6,7 @@ import * as S from '../_shared/svg.mjs';
 
 export function render({ data, palette, w = 960, h = 540, opts = {} }) {
   const root = data.root ?? data.org ?? {};
-  const children = (root.children ?? []).filter(Boolean).slice(0, 5);
+  const children = S.take(root.children, 5, 'children');
   if (!children.length) return S.svgDoc({ w, h, palette, body: S.textEl({ x: w / 2, y: h / 2, anchor: 'middle', fill: palette.subtext, lines: ['need root.children'] }) });
 
   const branchColors = S.seriesColors(palette, children.length);
@@ -51,7 +51,7 @@ export function render({ data, palette, w = 960, h = 540, opts = {} }) {
     body.push(S.textEl({ x: cxm, y: cy + 27, size: 14.5, weight: 800, fill: '#ffffff', anchor: 'middle', lines: [S.ellipsis(c.label ?? `部门${i + 1}`, cw - 26, 14.5, { bold: true })] }));
     if (c.value != null || c.desc) body.push(S.textEl({ x: cxm, y: cy + 48, size: 11, fill: S.alpha('#ffffff', 0.88), anchor: 'middle', lines: [S.ellipsis(c.desc ?? `${c.value} 人`, cw - 22, 11)] }));
     // 孙代胶囊
-    const subs = (c.children ?? []).filter(Boolean).slice(0, 4);
+    const subs = S.take(c.children, 4, 'branch.children');
     subs.forEach((s, j) => {
       const sy = cy + chH + 22 + j * 34;
       const stemX = cxm;

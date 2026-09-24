@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * catalog.mjs — 生成 catalog.html:16 组件 × 8 配色全量预览画廊
+ * catalog.mjs — 生成 catalog.html:16 组件 × 9 配色全量预览画廊
  * node scripts/catalog.mjs [--only-default]  (默认全配色,--only-default 只渲染默认配色)
  */
 import { writeFileSync } from 'node:fs';
@@ -65,7 +65,7 @@ async function main() {
   body { margin: 0; font-family: -apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif; background: #f2f4f9; color: #1e293b; }
   nav { position: sticky; top: 0; z-index: 9; display: flex; gap: 14px; flex-wrap: wrap; padding: 12px 28px; background: rgba(255,255,255,.85); backdrop-filter: blur(8px); border-bottom: 1px solid #e2e8f0; }
   nav a { color: #475569; text-decoration: none; font-size: 13px; font-weight: 600; padding: 4px 10px; border-radius: 999px; }
-  nav a:hover { background: #e0e7ff; color: #3730a3; }
+  nav a:hover { background: #e8f0ea; color: #123A2B; }
   h1 { padding: 28px 28px 0; margin: 0 0 4px; font-size: 24px; }
   .sub { padding: 0 28px 8px; color: #64748b; font-size: 13px; }
   h2 { padding: 22px 28px 8px; margin: 0; font-size: 17px; color: #334155; }
@@ -73,7 +73,7 @@ async function main() {
   .card { background: #fff; border: 1px solid #e2e8f0; border-radius: 16px; padding: 16px; box-shadow: 0 2px 10px rgba(15,23,42,.05); }
   .card header { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; margin-bottom: 10px; }
   .card h3 { margin: 0; font-size: 15.5px; }
-  .card code { font-size: 11.5px; color: #7c3aed; background: #f5f3ff; padding: 2px 7px; border-radius: 6px; }
+  .card code { font-size: 11.5px; color: #1e7a52; background: #e8f0ea; padding: 2px 7px; border-radius: 6px; }
   .desc { margin: 6px 0 0; font-size: 12px; color: #64748b; }
   select { font-size: 12.5px; padding: 6px 8px; border-radius: 8px; border: 1px solid #cbd5e1; background: #fff; }
   .panes { border-radius: 12px; overflow: hidden; border: 1px solid #eef2f7; }

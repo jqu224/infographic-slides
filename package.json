@@ -8,7 +8,8 @@
     "render": "node scripts/render.mjs",
     "antv": "node scripts/antv-bridge.mjs",
     "catalog": "node scripts/catalog.mjs",
-    "build:previews": "node scripts/build-previews.mjs"
+    "build:previews": "node scripts/build-previews.mjs",
+    "check": "node scripts/check.mjs"
   },
   "dependencies": {
     "@antv/infographic": "^0.2.20"

@@ -5,7 +5,7 @@
 import * as S from '../_shared/svg.mjs';
 
 export function render({ data, palette, w = 960, h = 540, opts = {} }) {
-  const groups = (data.groups ?? [{ label: data.label ?? '', value: Number(data.value) || 0, desc: data.desc }]).filter((g) => g && g.value != null).slice(0, 2);
+  const groups = S.take((data.groups ?? [{ label: data.label ?? '', value: Number(data.value) || 0, desc: data.desc }]).filter((g) => g && g.value != null), 2, 'groups');
   const n = groups.length;
   if (!n) return S.svgDoc({ w, h, palette, body: S.textEl({ x: w / 2, y: h / 2, anchor: 'middle', fill: palette.subtext, lines: ['need value/groups'] }) });
 

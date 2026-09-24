@@ -5,7 +5,7 @@
 import * as S from '../_shared/svg.mjs';
 
 export function render({ data, palette, w = 960, h = 540, opts = {} }) {
-  const sides = (data.sides ?? data.compares ?? []).filter(Boolean).slice(0, 2);
+  const sides = S.take(data.sides ?? data.compares, 2, 'sides');
   if (sides.length < 2) return S.svgDoc({ w, h, palette, body: S.textEl({ x: w / 2, y: h / 2, anchor: 'middle', fill: palette.subtext, lines: ['need 2 sides'] }) });
 
   const [A, B] = sides;
@@ -38,7 +38,7 @@ export function render({ data, palette, w = 960, h = 540, opts = {} }) {
     body.push(S.textEl({ x: x + 66, y: top + 30, size: 18, weight: 800, fill: '#ffffff', lines: [S.ellipsis(side.label ?? (pi ? 'B 方案' : 'A 方案'), panelW - 90, 18, { bold: true })] }));
     body.push(S.textEl({ x: x + 66, y: top + 50, size: 11, fill: S.alpha('#ffffff', 0.85), lines: [S.ellipsis(side.desc ?? '', panelW - 84, 11)] }));
     // 对比行
-    const rows = (side.children ?? side.points ?? side.items ?? []).filter(Boolean).slice(0, 5);
+    const rows = S.take(side.children ?? side.points ?? side.items, 5, 'side.points');
     const rowTop = top + 88;
     const rowH = Math.min(44, (panelH - 96) / Math.max(1, rows.length));
     rows.forEach((r, i) => {
