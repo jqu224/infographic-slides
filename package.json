@@ -2,6 +2,7 @@
   "name": "infographic-slides",
   "version": "0.1.0",
   "description": "AI-ready premium 3D infographic SVG component library + skill (HTML/SVG first, PPTX-ready)",
+  "license": "MIT",
   "type": "module",
   "main": "library/index.js",
   "scripts": {

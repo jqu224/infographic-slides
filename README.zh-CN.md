@@ -88,3 +88,7 @@ all SVGs ──► scripts/catalog.mjs ──► catalog.html gallery
 | **触发** | 信息图 / 图表 / infographic / 可视化 / PPT 配图 |
 | **语言锁定** | 图中文案跟随用户输入语言 |
 | **选型** | 逐级递减 → `funnel-3d`;层级 → `pyramid-3d`;时间序列 → `trend-3d`;循环 → `cycle-3d`;里程碑 → `timeline-3d`;双方对比 → `compare`;战略扫描 → `swot`;指标行 → `kpi-cards`;排期 → `gantt` |
+
+## 许可证
+
+[MIT](LICENSE)
