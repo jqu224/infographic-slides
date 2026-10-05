@@ -88,3 +88,7 @@ all SVGs ──► scripts/catalog.mjs ──► catalog.html gallery
 | **Trigger** | Mentions of 信息图 / 图表 / infographic / 可视化 / PPT 配图 |
 | **Language lock** | Chart copy follows the user's input language |
 | **Selection** | Decreasing stages → `funnel-3d`; hierarchy → `pyramid-3d`; time series → `trend-3d`; loops → `cycle-3d`; milestones → `timeline-3d`; two-sided choice → `compare`; strategy scan → `swot`; metric rows → `kpi-cards`; schedules → `gantt` |
+
+## License
+
+[MIT](LICENSE)
